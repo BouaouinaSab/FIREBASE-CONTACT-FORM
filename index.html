@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+</head>
+<body>
+        <h1>Hey <span>YOU!</span> Contact us </h1>
+    <div class="container " >
+        <div class="Info col-lg-6 col-md-6 col-sm-6">
+            <img src="res/panda.jpg">
+         <h1>Panda Company</h1>
+         <li><i style="font-size:24px" class="fa">&#xf095;</i> +216 20 610 704</li>
+         <li><i style="font-size:24px" class="fa">&#xf0e0;</i> Bouaouinasab@gmail.com</li>
+        </div>
+      <form class="wrapper col-lg-6 col-md-6 col-sm-6" id="formContact">
+          <p class="Nemail">
+            <label class='name' for="">Name :</label>
+            <input type='text' name="'Name'" id="name" required>
+            <label class='Email' for="">Email :</label>
+            <input type='text' name="'Email'" id="Email" required>
+          </p>  
+          <p>
+            <label class='Subject' for="">Subject :</label><br>
+            <input type='text' name="'Subject'" id="Subject">
+          </p>
+          <p>
+            <label class='msg'> Message : </label><br>
+            <textarea name="message" rows="5" id="msg" ></textarea>
+          </p>
+          <p>
+            <button  class="button" type="submit" onclick="myFunction()">Submit</button>
+          </p>
+        </form>
+    </div>  
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
